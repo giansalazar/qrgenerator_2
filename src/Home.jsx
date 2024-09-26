@@ -36,10 +36,10 @@ function Home() {
     
 
     return (
-        <div className='flex flex-row max-[768px]:flex-col w-full min-h-[100vh] bg-slate-950 pt-20 max-[768px]:pt-8 items-center justify-center text-white text-center'>
-            <div className='flex flex-col w-[50%] max-[768px]:w-[100%] h-[100vh] max-[768px]:h-[50vh] items-center justify-center'>
+        <div className='flex flex-row max-[768px]:flex-col w-full min-h-[100vh] bg-slate-950 pt-20 max-[768px]:pt-12 items-center justify-center text-white text-center'>
+            <div className='flex flex-col w-[50%] max-[768px]:w-[100%] min-h-[100vh] max-[768px]:min-h-[50vh] items-center justify-center'>
 
-                <h1 className='text-xl pb-8 text-gray-400 font-bold'>Genera tu QR Personalizado, comencemos...</h1>
+                <h1 className='text-xl max-[768px]:text-lg pb-8 text-gray-400 font-bold'>Genera tu QR Personalizado, comencemos...</h1>
 
                 <form className='flex flex-col text-center gap-2' action="">
 
